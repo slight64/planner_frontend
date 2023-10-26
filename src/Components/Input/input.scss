@@ -1,0 +1,8 @@
+.input {
+  display: block;
+  margin-top: 20px;
+  padding: 4px 4px;
+  &::placeholder {
+    color: aliceblue;
+  }
+}

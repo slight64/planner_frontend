@@ -1,0 +1,19 @@
+.nav {
+  background-color: rgb(163, 163, 163);
+  display: flex;
+  padding: 5px;
+  &__login,
+  &__registration {
+    background-color: rgb(53, 56, 56);
+    padding: 5px;
+    border-radius: 4px;
+    color: black;
+    font-weight: 700;
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+}
+.btn {
+  color: rgb(241, 0, 0);
+}
